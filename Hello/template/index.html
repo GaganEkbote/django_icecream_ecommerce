@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid px-0">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661427159078-9d85039e99b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332"
+          class="d-block w-100" style="width: 100%; height: 400px; object-fit: cover;" alt="Ice Cream" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Happiness served by the scoop!</h5>
+          <p>I scream, you scream, we all scream for ice cream!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1580915411954-282cb1b0d780?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974"
+          class="d-block w-100" style="width: 100%; height: 400px; object-fit: cover;" alt="Ice Cream" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sweet moments, one scoop at a time.</h5>
+          <p>Melt your worries, not your ice cream.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1633933037611-f26e54366832?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=764"
+          class="d-block w-100" style="width: 100%; height: 400px; object-fit: cover;" alt="Ice Cream" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cold treats, warm smiles.</h5>
+          <p>You can’t buy happiness, but you can buy ice cream — and that’s kind of the same thing!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container my-3">
+  <h1 class="my-4 text-center">Select from the range of ice-creams</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://media.istockphoto.com/id/1456234806/photo/mango-ice-cream-served-in-cup-isolated-on-grey-background-top-view-of-indian-and-bangladesh.webp?a=1&b=1&s=612x612&w=0&k=20&c=-AMw3wM-DpIdEPuS58ZqV4BAd-VKTmN6tFUtmo1degg="
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍋 <b>Mango Magic Scoop :</b>
+            Savor the taste of summer in every bite! Made with real ripe mangoes and smooth cream, this scoop bursts
+            with tropical flavor and sunshine sweetness that lingers on your taste buds.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661288452010-951ca57991fc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2079"
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍓 <b>Berry Bliss Cone :</b>
+            Delight in the fusion of juicy berries and creamy ice cream, nestled in a crisp cone. A perfect mix of tangy
+            and sweet, crafted to refresh and lift your mood instantly.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://m.media-amazon.com/images/I/51g7VSI8MLL._AC_UF894,1000_QL80_.jpg" class="d-block w-100"
+          alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍫 <b>Nutty Choco Bar :</b>
+            A crunchy chocolate shell hides a silky nut-filled surprise. This frozen bar blends roasted nuts and rich
+            cocoa, creating an irresistible, indulgent treat for true chocolate lovers.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://media.istockphoto.com/id/1161805849/photo/strawberry-vanilla-chocolate-ice-cream-with-waffle-cone-on-marble-stone-backgrounds.webp?a=1&b=1&s=612x612&w=0&k=20&c=otZXjYBcPbHD0_UqUGu8i6uC72JawXO8ITw4CIEai28="
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍦 <b>Classic Double Scoop :</b>
+            Two classic scoops vanilla and strawberry served with creamy perfection. A timeless favorite that melts
+            smoothly and brings a comforting touch of nostalgia to every bite.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://img.taste.com.au/J3RalqbM/taste/2016/11/raspberry-meringue-ice-cream-wafers-27679-1.jpeg"
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🧇 <b>Berry Cream Waffle :</b>
+            Crispy waffle layers filled with creamy berry ice cream and vanilla swirls. A perfect balance of crunch and
+            softness that makes every mouthful a moment of sweet harmony.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://www.icecreampremixes.com/image/cache/catalog/ICP/ice-cream-premix-black%20currant-786x500.jpg"
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">💜 <b>Lavender Love Cup :</b>
+            A soft lavender dream in a cup! This floral-infused ice cream is creamy, aromatic, and beautifully soothing
+            — a unique flavor made for those who love something truly elegant.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1713987665031-4156badbd260?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aWNlJTIwY3JlYW0lMjBmbGF2b3JzJTIwa2l3aXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🥝 <b>Kiwi Freeze Pop :</b>
+            Fresh, tangy, and bursting with real fruit — our kiwi pops bring a zesty twist to your day. The perfect icy
+            snack that’s light, natural, and full of refreshing energy.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://b.zmtcdn.com/data/pictures/chains/6/21297266/172001936685c8db7b-6133-4915-858d-6d36e3291322.jpg"
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍦 <b>Swirl Duo Cones :</b>
+            Double the joy with chocolate and vanilla swirled to creamy perfection. The crispy cone adds the final touch
+           a nostalgic treat that’s loved by kids and adults alike.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://media.istockphoto.com/id/1499781666/photo/lucuma-ice-cream-with-chocolate-coating.webp?a=1&b=1&s=612x612&w=0&k=20&c=HcSvHecg9BXIzNnMGYBvcFaZ_LRalSJXSjYVwH4gzUI="
+          class="d-block w-100" alt="..." height="350" width="1200">
+        <div class="card-body">
+          <p class="card-text">🍬 <b>Mini Bites Delight :</b>
+            Small in size but big in flavor! Ice cream cubes wrapped in chocolate deliver a
+            melt in your mouth indulgence you’ll want to savor again and again.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button> <button type="button"
+                class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
